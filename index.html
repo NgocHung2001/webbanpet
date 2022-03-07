@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB BÁN PET</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid">
+                <div class="header__navbar">
+                  <ul class="header__navbar-list">
+                      <li class="header__navbar-item header__navbar-item--has-pointer header__navbar-item--paserate">
+                          Vào cửa hàng thú cưng bằng mã quét mã QR 
+
+                          <div class="header-qr">
+                              <img src="./assets/img/qr.png" class="header-qr-img" alt="QR CODE">
+                                <div class="header-qr__group">
+                                    <a href="" class="header-qr__link">
+                                        <img src="./assets/img/chplay.png" alt="" class="header-qr__facebook">
+                                    </a>
+                                    <a href="" class="header-qr__link">
+                                        <img src="./assets/img/store.png" alt="" class="header-qr__store">
+                                    </a>
+                                </div>
+                            </div>
+                      </li>
+                      <li class="header__navbar-item">
+                       <span class="header__navbar-item-title">Kết nối</span>
+                        
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-instagram-square"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                  </ul>
+                  <ul class="header__navbar-list">
+                      <li class="header__navbar-item">
+                          <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-bell"></i> 
+                            Thông báo
+                          </a>
+                      </li>
+                      <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-question-circle"></i>
+                            Hỗ trợ
+                        </a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--bold header__navbar-item--paserate js-sign-in">
+                        Đăng ký
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--bold js-sign-out">
+                        Đăng nhập
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div class="header__content">
+                    <div class="header__navbar-logo">
+                        <img src="./assets/img/dogily-logo.png" alt="">
+                    </div>
+ 
+                    <div class="header__navbar-search">
+                        <div class="header__navbar-search-wrap">
+                            <input type="text" class="header__navbar-input" placeholder="Nhập thú cưng cần tìm kiếm">
+                            
+                            <div class="header-history">
+                                <h3 class="header-history__header">Lịch sử tìm kiếm</h3>
+                                <ul class="header-history__list">
+                                    <li class="header-history__item">
+                                        <a href="">Chó cảnh</a>
+                                    </li>
+                                    <li class="header-history__item">
+                                        <a href="">Mèo cảnh</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="header__navbar-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="grid">
+                <div class="grid__row grid__row--padding">
+                    <div class="grid-col-2">
+                        <div class="category">
+                            <h3 class="category__header">
+                                <i class="fas fa-bars"></i>
+                                DANH MỤC SẢN PHẨM
+                            </h3>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <a href="">Danh mục chó cảnh</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="">Danh mục mèo cảnh</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="">Danh mục chuột cảnh</a>
+                                </li>
+                                <li class="category__item">
+                                    <a href="">Danh mục chim cảnh</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-col-10">
+                        <div class="home-fillter">
+                                    <span class="home-fillter-look">Xem tất cả</span>
+                                    <button class="btn home-fillter-btn btn__normal">Phổ biến</button>
+                                    <button class="btn home-fillter-btn btn__primary">Mới nhất</button>
+                                    <button class="btn home-fillter-btn btn__normal">Bán chạy</button>
+                                
+                                    <div class="home-fillter__sale home-fillter__sale--pointer">
+                                        <span>Giá</span>
+                                        <i class="fas fa-angle-down"></i>
+
+                                        <ul class="home-fillter__sale-list">
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ cao đến thấp</a>
+                                            </li>
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ thấp đến cao</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="home-fillter__group">
+                                        <span class="home-fillter__stt">
+                                            <span class="home-fillter__one">1</span>
+                                            / 14
+                                        </span>
+
+                                        <div class="home-fillter__next">
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-left"></i>
+                                            </a>
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="content-dog">
+            <div class="grid">
+                <div class="grid__row grid__row--padding grid__row--dog">
+                    <div class="grid-col-2">
+                        <div class="category">
+                            <h3 class="category__header category__header--center category__header--green">
+                                CHÓ CẢNH
+                            </h3>
+                           
+                        </div>
+                    </div>
+                    <div class="grid-col-10">
+                        <div class="home-fillter">
+                                    <span class="home-fillter-look">Xem tất cả</span>
+                                    <button class="btn home-fillter-btn btn__normal">Phổ biến</button>
+                                    <button class="btn home-fillter-btn btn__primary">Mới nhất</button>
+                                    <button class="btn home-fillter-btn btn__normal">Bán chạy</button>
+                                
+                                    <div class="home-fillter__sale home-fillter__sale--pointer">
+                                        <span>Giá</span>
+                                        <i class="fas fa-angle-down"></i>
+
+                                        <ul class="home-fillter__sale-list">
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ cao đến thấp</a>
+                                            </li>
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ thấp đến cao</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="home-fillter__group">
+                                        <span class="home-fillter__stt">
+                                            <span class="home-fillter__one">1</span>
+                                            / 14
+                                        </span>
+
+                                        <div class="home-fillter__next">
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-left"></i>
+                                            </a>
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="content-cat">
+            <div class="grid">
+                <div class="grid__row grid__row--padding grid__row--dog">
+                    <div class="grid-col-2">
+                        <div class="category">
+                            <h3 class="category__header category__header--center category__header--green">
+                                MÈO CẢNH
+                            </h3>
+                           
+                        </div>
+                    </div>
+                    <div class="grid-col-10">
+                        <div class="home-fillter">
+                                    <span class="home-fillter-look">Xem tất cả</span>
+                                    <button class="btn home-fillter-btn btn__normal">Phổ biến</button>
+                                    <button class="btn home-fillter-btn btn__primary">Mới nhất</button>
+                                    <button class="btn home-fillter-btn btn__normal">Bán chạy</button>
+                                
+                                    <div class="home-fillter__sale home-fillter__sale--pointer">
+                                        <span>Giá</span>
+                                        <i class="fas fa-angle-down"></i>
+
+                                        <ul class="home-fillter__sale-list">
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ cao đến thấp</a>
+                                            </li>
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ thấp đến cao</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="home-fillter__group">
+                                        <span class="home-fillter__stt">
+                                            <span class="home-fillter__one">1</span>
+                                            / 14
+                                        </span>
+
+                                        <div class="home-fillter__next">
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-left"></i>
+                                            </a>
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="content-reptile">
+            <div class="grid">
+                <div class="grid__row grid__row--padding grid__row--dog">
+                    <div class="grid-col-2">
+                        <div class="category">
+                            <h3 class="category__header category__header--center category__header--green">
+                                BÒ SÁT
+                            </h3>
+                           
+                        </div>
+                    </div>
+                    <div class="grid-col-10">
+                        <div class="home-fillter">
+                                    <span class="home-fillter-look">Xem tất cả</span>
+                                    <button class="btn home-fillter-btn btn__normal">Phổ biến</button>
+                                    <button class="btn home-fillter-btn btn__primary">Mới nhất</button>
+                                    <button class="btn home-fillter-btn btn__normal">Bán chạy</button>
+                                
+                                    <div class="home-fillter__sale home-fillter__sale--pointer">
+                                        <span>Giá</span>
+                                        <i class="fas fa-angle-down"></i>
+
+                                        <ul class="home-fillter__sale-list">
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ cao đến thấp</a>
+                                            </li>
+                                            <li class="home-fillter__sale-item">
+                                                <a href="">Từ thấp đến cao</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="home-fillter__group">
+                                        <span class="home-fillter__stt">
+                                            <span class="home-fillter__one">1</span>
+                                            / 14
+                                        </span>
+
+                                        <div class="home-fillter__next">
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-left"></i>
+                                            </a>
+                                            <a href="" class="home-fillter__next-link">
+                                                <i class="home-fillter__next-icon fas fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-2-4">
+                                    <div class="home-product__item home-product__item--padding">
+                                        <div class="home-product__item-img" >
+                                            <img src="./assets/img/hinh-anh-nhung-con-cho-de-thuong_092948873.jpg" alt="">
+                                        </div>
+                                    
+                                        <p class="home-product__item-title">Poodle Tiny tai bướm màu trắng – PTT00099</p>
+
+                                        <div class="home-product__item-sale">
+                                            <span class="home-product__item-one">2.300.000</span>
+                                            <span class="home-product__item-two">1.900.000</span>
+                                        </div>
+
+                                        <div class="home-product__item-evaluate">
+                                            <div class="home-product__item-evaluate-one">
+                                               
+                                            </div>
+
+                                            <div class="home-product__item-evaluate-two">
+                                                <span>88 đã bán</span>
+
+                                                <div class="home-product__item-evaluate-group">
+
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="home-product--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="home-product__item-watch">
+                                            <button class="btn btn__size-s btn__primary">THÊM</button>
+                                            <button class="btn btn__size-s btn__primary">XEM</button>
+                                        </div>
+                                        <div class="home-product__item-love">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product__item-discount">
+                                            <span class="home-product__item-discount-one">10%</span>
+                                            <span class="home-product__item-discount-two">GIẢM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </div>
+    
+      <div class="modal-log-out js-modal-registration "> 
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <span class="auth-form__log-in ">Đăng ký</span>
+                       
+                    </div>
+
+                    <div class="auth-form__group">
+                        <div class="auth-form__wrap">
+                            <input type="number" class="auth-form__input" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="auth-form__wrap">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth-form__wrap">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__aside-text">
+                            Bạn đống ý đăng ký tài khoản với các
+                            <a href="" class="auth-form__aside-link">Điều khoản chính sách</a> &
+                            <a href="" class="auth-form__aside-link">Điều khoản bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__control">
+                        <buttton class="auth-form__control--space btn btn__normal js-back-log-out">TRỞ LẠI</buttton>
+                        <buttton class="btn btn__primary">ĐĂNG KÝ</buttton>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="btn  btn__size-s auth-form__socials-link auth-form__socials--facebook">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="btn btn__normal btn__size-s auth-form__socials-link auth-form__socials--store">
+                        <i class="auth-form__socials-icon fab fa-google-play"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="modal-log-in js-modal-log-in"> 
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <span class="auth-form__log-in auth-form__log-in--green">Đăng nhập</span>
+                       
+                    </div>
+
+                    <div class="auth-form__group">
+                        <div class="auth-form__wrap">
+                            <input type="number" class="auth-form__input" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="auth-form__wrap">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                        
+                    
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__aside-password">
+                            <a href="" class="auth-form__aside-password-link">Quên mật khẩu ?</a>
+                            <a href="" class="auth-form__aside-help-link">Cần hổ trợ</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__control">
+                        <buttton class="auth-form__control--space btn btn__normal js-back-log-in">TRỞ LẠI</buttton>
+                        <buttton class="btn btn__primary">ĐĂNG NHẬP</buttton>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="btn  btn__size-s auth-form__socials-link auth-form__socials--facebook">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="btn btn__normal btn__size-s auth-form__socials-link auth-form__socials--store">
+                        <i class="auth-form__socials-icon fab fa-google-play"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+    <script>
+        const modalout =document.querySelector('.js-sign-in')
+        const modal = document.querySelector('.js-modal-registration')
+        const modalclose =document.querySelector('.js-back-log-out')
+        function showmodal (){
+            modal.classList.add('open')
+        }
+        function hidemodal (){
+            modal.classList.remove('open')
+        }
+
+        modalout.addEventListener('click',showmodal)
+
+        modalclose.addEventListener('click',hidemodal)
+    </script>   
+    
+    <script>
+        const modalIn =document.querySelector('.js-sign-out')
+        const modallogin=document.querySelector('.js-modal-log-in')
+        const modalback =document.querySelector('.js-back-log-in')
+
+        function showlogin (){
+            modallogin.classList.add('open')
+        }
+        function hidelogin (){
+            modallogin.classList.remove('open')
+        }
+        modalIn.addEventListener('click',showlogin)
+
+        modalback.addEventListener('click',hidelogin)
+
+    </script>
+</body>
+</html>
